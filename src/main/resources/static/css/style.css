@@ -1,0 +1,135 @@
+body{
+/* 	
+	background-image:url(/resources/images/bg1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+}
+ .parallax1 {
+  /* The image used */
+background-image:url(/resources/images/bg1.jpeg);
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub_button{
+	  transition: width 2s, height 4s;
+}
+
+.sub_button:hover{
+	  width: 100px;
+	  height:100px;
+}
+
+.parallax2 {
+  /* The image used */
+background-image:url(/resources/images/bg2.jpeg);
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 470px;
+}
+
+
+        .error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding:1px 20px 1px 20px;
+}
+      .msg-box * {
+  vertical-align:top;
+            }
+
+div.well{
+	background-color:#F4A896;
+}
+h1.wellh1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.container{
+      padding-left: 0%;
+      margin-left: 20px;
+      
+    }
+    
+.container table.center {
+            margin-left: 70; 
+            margin-right: auto; 
+        }
+        
+    .navbar-style{
+        background-color: #358597;
+    }
+    .navbar-header{
+    	margin-top:15px;
+    	background-color:#F4A896; 
+    }
+    .navbar-header h1{
+    	color:#358597;
+        font-weight: bold; 
+        
+    }
+    div.navbar-header {
+  transition: transform 2s;
+}
+
+div.navbar-header:hover {
+
+  transform: rotate(3600deg);
+}
+    ul {
+	font-size:20px;
+	
+	padding: 26px;
+}
+
+
+
+	li a {
+		color:#F4A896;
+		font-weight:bold;
+  		display: block;
+  		margin-left: 20px;
+  	}
+    li a:hover {
+ 	 background-color: #111;
+	}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#358597;
+    color:F4A896;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+  }
+  
+  
+  
+  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
